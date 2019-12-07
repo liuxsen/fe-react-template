@@ -1,14 +1,11 @@
-import ReactDOM from 'react-dom';
+import ReactDOM, {Component} from 'react-dom';
 import React from 'react';
-import App from './app';
 
-// css
-import '../../static/css/atom-common.css';
-import '../../static/css/atom-pc.css';
-import '../../static/css/atom-pc.1.min.css';
-import '../../static/css/atom-pc.2.min.css';
-import '../../static/css/atom-pc.3.min.css';
-import '../../static/css/atom-pc.4.min.css';
+class App extends Component {
+  render () {
+    return <div>app</div>;
+  }
+}
 
 ReactDOM.render(<App/>, document.getElementById('app'));
 

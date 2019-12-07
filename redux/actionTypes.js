@@ -1,1 +1,0 @@
-export const Fetch_sku = 'fetch_sku';
